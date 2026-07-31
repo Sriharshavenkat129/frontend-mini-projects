@@ -1,0 +1,110 @@
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: hsl(0, 0%, 90%);
+        }
+
+        #container {
+            text-align: center;
+            background-color: white;
+            width: 80%;
+            height: auto;
+            padding: 10px 10px;
+            border-radius: 20px;
+        }
+
+        #timer {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        #buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 5px;
+        }
+
+        button {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 150%;
+            border: none;
+            border-radius: 10px;
+            padding: 5px 5px;
+            cursor: pointer;
+            width: 30%;
+            text-align: center;
+        }
+
+        #start {
+            background-color: hsl(120, 100%, 50%)
+        }
+
+        #start:hover {
+            background-color: hsl(120, 100%, 65%);
+            transition: background-color 0.5s ease;
+            box-shadow: 2px 2px 5px black;
+            font-size: 155%;
+        }
+
+        #start:active {
+            background-color: hsl(115, 100%, 80%);
+        }
+
+        #stop {
+            background-color: hsl(0, 98%, 49%);
+        }
+
+        #stop:hover {
+            background-color: hsl(0, 98%, 59%);
+            transition: background-color 0.5s ease;
+            box-shadow: 2px 2px 5px black;
+            font-size: 155%;
+        }
+
+        #stop:active {
+            background-color: hsl(0, 98%, 69%);
+        }
+
+        #reset {
+            background-color: hsl(60, 100%, 50%)
+        }
+
+        #reset:hover {
+            background-color: hsl(60, 100%, 70%);
+            transition: background-color 0.5s ease;
+            box-shadow: 2px 2px 5px black;
+            font-size: 155%;
+        }
+
+        #reset:active {
+            background-color: hsl(60, 100%, 80%);
+        }
+
+        #record {
+            background-color: hsl(200, 100%, 60%);
+        }
+
+        #record:hover {
+            background-color: hsl(200, 100%, 70%);
+            transition: background-color 0.5s ease;
+            box-shadow: 2px 2px 5px black;
+            font-size: 155%;
+        }
+
+        #reset:active {
+            background-color: hsl(200, 100%, 75%);
+        }
+
+        .rec {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 25px;
+        }
+
+        h3 {
+            margin: 3%;
+            font-size: 25px;
+        }
