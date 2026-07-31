@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple-calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="calculator">
+        <input id="equation" readonly>
+        <div id="buttons">
+            <button class="operators" onclick="appendtodiaplay('+')">+</button>
+            <button id="num" onclick="appendtodiaplay('7')">7</button>
+            <button id="num" onclick="appendtodiaplay('8')">8</button>
+            <button id="num" onclick="appendtodiaplay('9')">9</button>
+            <button class="operators" onclick="appendtodiaplay('-')">-</button>
+            <button id="num" onclick="appendtodiaplay('4')">4</button>
+            <button id="num" onclick="appendtodiaplay('5')">5</button>
+            <button id="num" onclick="appendtodiaplay('6')">6</button>
+            <button class="operators" onclick="appendtodiaplay('/')">/</button>
+            <button id="num" onclick="appendtodiaplay('1')">1</button>
+            <button id="num" onclick="appendtodiaplay('2')">2</button>
+            <button id="num" onclick="appendtodiaplay('3')">3</button>
+            <button class="operators" onclick="appendtodiaplay('*')">*</button>
+            <button id="num" onclick="appendtodiaplay('0')">0</button>
+            <button id="num" onclick="appendtodiaplay('.')">.</button>
+            <button class="operators" id="evaluate">=</button>
+            <button class="operators" id="clear">c</button>
+            <button class="remove" onclick="remove()"><</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
